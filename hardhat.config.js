@@ -26,7 +26,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      arbitrumOne: 'RMMWDDH5TJTN2F986ZJX5I1PYU42KMIX29'
+      arbitrumOne: 'RMMWDDH5TJTN2F986ZJX5I1PYU4XXXXXXXX'
     }
   },
 }
