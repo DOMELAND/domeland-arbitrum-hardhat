@@ -12,6 +12,15 @@ npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
 
+
+```shell
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network arbitrum
+npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS
+
+```
+
+
 …or create a new repository on the command line
 echo "# domeland_nft_contract" >> README.md
 git init
@@ -28,3 +37,14 @@ git push -u origin main
 
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+# how to deploy hardhat arbitrum and verify
+
+https://hardhat.org/hardhat-runner/docs/guides/deploying.    
+
+
+https://betterprogramming.pub/how-to-setup-your-hardhat-environment-af70b39c16d1.    Auto Verify
+
+
+https://hicoldcat.com/posts/blockchain/how-to-become-a-web3-developer-in-2023/   solidity learning

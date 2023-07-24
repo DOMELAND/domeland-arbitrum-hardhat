@@ -1,18 +1,15 @@
 require('dotenv').config(); //all the key value pairs are being made available due to this lib
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-verify");
 
 module.exports = {
-  defaultNetwork: "arbgoerli",
+  defaultNetwork: "arbitrum",
   networks: {
     hardhat: {
     },
-    arbgoerli: {
-      url: `${process.env.ARB_GOERLI_URL_API}`,
-      accounts: [`0x${process.env.ARBGOERLI_PRIVATE_KEY}`],
-    },
-    goerli: {
-      url: `${process.env.GOERLI_URL}`,
-      accounts: [`0x${process.env.GOERLI_PRIVATE_KEY}`],
+    arbitrum: {
+      url: `${process.env.ARBITRUM_URL_API_WITHKEY}`,
+      accounts: [`0x${process.env.ARBITRUM_PRIVATE_KEY}`],
     }
   },
   solidity: {
@@ -29,7 +26,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      arbitrumGoerli: 'AQ13WPUK52XY53VBUXYB47Z7WJCT2EUVC5'
+      arbitrumOne: 'RMMWDDH5TJTN2F986ZJX5I1PYU42KMIX29'
     }
   },
 }
