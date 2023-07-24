@@ -16,7 +16,7 @@ npx hardhat run scripts/deploy.js
 ```shell
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network arbitrum
-npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS
+npx hardhat verify --network arbitrum DEPLOYED_CONTRACT_ADDRESS
 
 ```
 
@@ -48,3 +48,9 @@ https://betterprogramming.pub/how-to-setup-your-hardhat-environment-af70b39c16d1
 
 
 https://hicoldcat.com/posts/blockchain/how-to-become-a-web3-developer-in-2023/   solidity learning
+
+
+
+# Arbiscan with Domeland
+
+https://arbiscan.io/address/0x4A73E1c5a5252e30f615D2e0E856a58DBc1DF613#code
