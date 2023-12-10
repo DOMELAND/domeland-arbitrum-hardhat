@@ -53,4 +53,5 @@ https://hicoldcat.com/posts/blockchain/how-to-become-a-web3-developer-in-2023/  
 
 # Arbiscan with Domeland
 
-https://arbiscan.io/address/0x4A73E1c5a5252e30f615D2e0E856a5xxxxF613#code
+The contract Domeland has already been verified.
+https://arbiscan.io/address/0x23aEaf478ce044cD6c3D0f15a41760010Aaea63D#code 
