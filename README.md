@@ -5,18 +5,18 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npm install --save-dev hardhat
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+npm install --save-dev @nomicfoundation/hardhat-verify
+npm install @openzeppelin/contracts
 ```
 
 
 ```shell
+
 npx hardhat compile
-npx hardhat run scripts/deploy.js --network arbitrum
-npx hardhat verify --network arbitrum DEPLOYED_CONTRACT_ADDRESS
+npx hardhat run scripts/deploy.js --network arbitrumOne
+npx hardhat verify --network arbitrumOne DEPLOYED_CONTRACT_ADDRESS
 
 ```
 
@@ -53,4 +53,4 @@ https://hicoldcat.com/posts/blockchain/how-to-become-a-web3-developer-in-2023/  
 
 # Arbiscan with Domeland
 
-https://arbiscan.io/address/0x4A73E1c5a5252e30f615D2e0E856a58DBc1DF613#code
+https://arbiscan.io/address/0x4A73E1c5a5252e30f615D2e0E856a5xxxxF613#code
